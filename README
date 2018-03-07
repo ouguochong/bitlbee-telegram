@@ -1,0 +1,25 @@
+Telegram Bitlbee Plugin
+=======================
+
+This plugin is based on Telegram's official client library:
+https://github.com/tdlib/td.
+
+*This is a rough early version, only basic private chats are implemented !*
+
+
+Dependencies
+------------
+
+* tdjson — https://github.com/tdlib/td
+* jansson — https://github.com/akheron/jansson
+* glib — https://github.com/GNOME/glib
+* bitlbee — https://github.com/bitlbee/bitlbee
+
+
+Build
+-----
+
+* put your API keys in `tgx.h` (see
+  https://core.telegram.org/api/obtaining_api_id)
+* run `make`,
+* install the generated `telegram.so` library into Bitlbee plugins directory
